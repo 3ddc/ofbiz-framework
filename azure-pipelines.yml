@@ -13,7 +13,7 @@ steps:
 
 - script: './gradle/init-gradle-wrapper.sh'
 
-- task: Gradle@2
+- task: Gradle@1
   inputs:
     workingDirectory: ''
     gradleWrapperFile: 'gradlew'
