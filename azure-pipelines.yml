@@ -13,7 +13,7 @@ steps:
 
 - script: './gradle/init-gradle-wrapper.sh'
 
-- task: Gradle@1
+- task: Gradle@3
   inputs:
     workingDirectory: ''
     gradleWrapperFile: 'gradlew'
@@ -21,6 +21,6 @@ steps:
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
-    publishJUnitResults: true
-    testResultsFiles: '**/TEST-*.xml'
+    #publishJUnitResults: true
+    #testResultsFiles: '**/TEST-*.xml'
     tasks: 'cleanAll'
