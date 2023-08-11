@@ -17,11 +17,10 @@ steps:
   inputs:
     workingDirectory: ''
     gradleWrapperFile: 'gradlew'
-    #gradleOptions: '-Xmx3072m'
-    gradleOptions: 'cleanAll'
+    gradleOptions: '-Xmx3072m'
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/TEST-*.xml'
-    tasks: 'build'
+    tasks: 'cleanAll'
