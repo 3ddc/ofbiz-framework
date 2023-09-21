@@ -18,6 +18,7 @@
 */
 package org.apache.ofbiz.product.catalog.feature
 
+import org.apache.ofbiz.base.util.UtilDateTime
 import org.apache.ofbiz.entity.GenericEntityException
 import org.apache.ofbiz.entity.transaction.TransactionUtil
 
